@@ -8,24 +8,54 @@
 </head>
 <body>
     <div class="side">
-        <div class="logo">
-            <img src="images/odin-lined.png" alt="Odin logo">
+        <div class="banner">
+            <img src="images/odin-lined.png" id="logo" alt="Odin logo">
         </div>
     </div>
     <div class="main">
         <div class="top">
             <span id="info">
-                This is not a real online service! Sign up now to get started.
+                This is not a real online service! Dummy text dummy text dummy text dummy text dummy text dummy text dummy text. Sign up now to get started.
+                <br>
+                <br>
+                <br>
+                Dummy text.
             </span>
         </div>
-        <div class="mid">
-            a
-            <form action="example.com/path" method="post">
-
-            </form>
-        </div>
         <div class="bot">
-            a
+            <form action="https://example.com/path" method="post">
+                <div>
+                    <label for="first">FIRST NAME</label>
+                    <input type="text" name="first" id="first" required>
+                </div>
+              
+                <div>
+                    <label for="last">LAST NAME</label>
+                    <input type="text" name="last" id="last" required>
+                </div>
+              
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input type="text" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="number" name="phone" id="phone" required>
+                </div>
+                <div>
+                    <label for="user_password">PASSWORD</label>
+                    <input type="password" id="user_password" name="password" required>
+                </div>
+                <div>
+                    <label for="user_password">CONFIRM PASSWORD</label>
+                    <input type="password" id="user_password" name="password" required>
+                </div>
+
+                <div class="submit"> 
+                    <button type="create">Create Account</button>
+                </div>
+                
+              </form>
         </div>
     </div>
 </body>
