@@ -14,48 +14,59 @@
     </div>
     <div class="main">
         <div class="top">
-            <span id="info">
-                This is not a real online service! Dummy text dummy text dummy text dummy text dummy text dummy text dummy text. Sign up now to get started.
+            <span id="header">
+                This is not a real online service! This is the Sign-up Form project from The Odin Project as part of the Intermediate HTML and CSS Course. 
                 <br>
                 <br>
                 <br>
-                Dummy text.
+                Sign up now to get started.
             </span>
         </div>
-        <div class="bot">
+        <div class="mid">
+            <span id="title">Your Information</span>
             <form action="https://example.com/path" method="post">
-                <div>
-                    <label for="first">FIRST NAME</label>
-                    <input type="text" name="first" id="first" required>
-                </div>
-              
-                <div>
-                    <label for="last">LAST NAME</label>
-                    <input type="text" name="last" id="last" required>
-                </div>
-              
-                <div>
-                    <label for="email">EMAIL</label>
-                    <input type="text" name="email" id="email" required>
-                </div>
-                <div>
-                    <label for="phone">PHONE NUMBER</label>
-                    <input type="number" name="phone" id="phone" required>
-                </div>
-                <div>
-                    <label for="user_password">PASSWORD</label>
-                    <input type="password" id="user_password" name="password" required>
-                </div>
-                <div>
-                    <label for="user_password">CONFIRM PASSWORD</label>
-                    <input type="password" id="user_password" name="password" required>
-                </div>
-
-                <div class="submit"> 
-                    <button type="create">Create Account</button>
-                </div>
+                <div class="info">
+                    <div class="left">
+                        <div>
+                            <label for="first">FIRST NAME</label>
+                            <input type="text" name="first" id="first" required>
+                        </div>
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="text" name="email" id="email" required>
+                        </div>
+                        <div>
+                            <label for="user_password">PASSWORD</label>
+                            <input type="password" id="password1" name="password1" required>
+                        </div>
+                    </div>
+                    
+                    <div class="right">
+                        <div>
+                            <label for="last">LAST NAME</label>
+                            <input type="text" name="last" id="last" required>
+                        </div>
+                        <div>
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="number" name="phone" id="phone" required>
+                        </div>
+                        <div>
+                            <label for="user_password">CONFIRM PASSWORD</label>
+                            <input type="password" id="password2" name="password2" required>
+                        </div>
+                    </div>
+                </div>  
                 
+             
               </form>
+        </div>
+        <div class="bot">
+
+            <button type="submit">Create Account</button>
+
+            <span>
+                Already have an account? Log in
+            </span>
         </div>
     </div>
 </body>
