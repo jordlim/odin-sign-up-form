@@ -13,8 +13,7 @@ body {
   overflow-x: hidden;
 
 
-  font-family: "Roboto", sans-serif;
-
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: row;
 
@@ -38,12 +37,12 @@ body {
 }
 
 .banner {
-  background-color: #cccccc;
+  background-color: black;
   opacity: 0.5;
   height: 200px;
   width: auto;
 
-  margin-top: 100px;
+  margin-top: 360px;
   
   display: flex;
 }
@@ -78,41 +77,67 @@ body {
 .top {
   background-color: #f5f5f5;
 
-  font-size: 24px;
+  font-size: 28px;
 
   padding-top: 384px;
 
   padding-bottom: 32px;
-  }
+}
+
+#header {
+  font-weight: 600;
+}
 
 .mid {
   background-color: white;
 
-  box-shadow: 0px 60px black;
-  border: 2px 2px black;
-}
 
-.bot {
-  background-color: #f5f5f5;
-}
-
-#header {
-  font-weight: bold;
+  padding-top: 16px;
 }
 
 #title {
   font-size: 32px;
-}
-
-label {
-  display: flex;
-
+  font-weight: bolder;
 }
 
 .info {
   display:flex;
 
-  gap: 256px;
+  gap: 128px;
+}
+
+.left, .right {
+  padding-top: 32px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 32px;
+
+  font-size: 16px;
+}
+
+label {
+  display: flex;
+  font-weight: 500;
+}
+
+input {
+  width: 320px;
+  height: 32px;
+
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #E5E7EB;
+}
+
+.bot {
+  display: block;
+
+  background-color: #f5f5f5;
+  padding-bottom: 384px;
+
+  padding-top: 32px;
 }
 
 .submit {
@@ -120,6 +145,31 @@ label {
   padding: 64px;
 
 }
+
+#create {
+  background-color: #596D48;
+  color: white;
+
+  font-size: large;
+  font-weight: bold;
+
+  padding: 16px;
+  padding-left: 64px;
+  padding-right: 64px;
+
+  border: 0px;
+  border-radius: 8px;
+  box-shadow: lightgrey 3px 3px;
+}
+
+#create:hover {
+  background-color: #34402a;
+  box-shadow: lightgrey 0px 0px;
+}
+
+
+
+
 
 
 /* Code from Stack Overflow to hide number input spin box */
